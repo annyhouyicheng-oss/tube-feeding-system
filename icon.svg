@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a5369"/>
+      <stop offset="50%" style="stop-color:#0e7490"/>
+      <stop offset="100%" style="stop-color:#0891b2"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- Feeding tube / drip bag icon -->
+  <!-- IV bag shape -->
+  <rect x="176" y="60" width="160" height="120" rx="20" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.6)" stroke-width="6"/>
+  <!-- bag label lines -->
+  <rect x="200" y="85" width="112" height="8" rx="4" fill="rgba(255,255,255,0.5)"/>
+  <rect x="200" y="103" width="80" height="6" rx="3" fill="rgba(255,255,255,0.35)"/>
+  <rect x="200" y="118" width="96" height="6" rx="3" fill="rgba(255,255,255,0.35)"/>
+  <!-- bag liquid fill indicator -->
+  <rect x="183" y="130" width="146" height="40" rx="0 0 14 14" fill="rgba(255,255,255,0.15)"/>
+
+  <!-- Tube from bag -->
+  <rect x="248" y="180" width="16" height="20" rx="4" fill="rgba(255,255,255,0.7)"/>
+  <!-- tube line -->
+  <path d="M256 200 Q256 240 220 260 Q180 285 180 340" stroke="rgba(255,255,255,0.8)" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <!-- Stomach/feeding end -->
+  <ellipse cx="185" cy="360" rx="50" ry="35" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.6)" stroke-width="5"/>
+  <path d="M155 355 Q170 380 185 375 Q200 370 215 355" stroke="rgba(255,255,255,0.7)" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Calculator / chart element on right side -->
+  <rect x="290" y="255" width="140" height="110" rx="14" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.4)" stroke-width="4"/>
+  <!-- bar chart bars -->
+  <rect x="310" y="320" width="20" height="30" rx="4" fill="rgba(255,255,255,0.7)"/>
+  <rect x="340" y="300" width="20" height="50" rx="4" fill="rgba(255,255,255,0.9)"/>
+  <rect x="370" y="308" width="20" height="42" rx="4" fill="rgba(255,255,255,0.7)"/>
+  <!-- chart baseline -->
+  <rect x="305" y="354" width="115" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
+  <!-- label -->
+  <rect x="305" y="265" width="70" height="7" rx="3" fill="rgba(255,255,255,0.5)"/>
+  <rect x="305" y="280" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.35)"/>
+
+  <!-- Nutrition text at bottom -->
+  <rect x="116" y="420" width="280" height="14" rx="7" fill="rgba(255,255,255,0.3)"/>
+  <rect x="156" y="444" width="200" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+</svg>
